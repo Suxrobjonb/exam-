@@ -1,0 +1,49 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.site__box {
+    margin: 3px 20px;
+    padding: 20px;
+}
+
+.input__dictionary {
+    margin-top: 35px;
+    margin-bottom: 35px ;
+    padding: 10px;
+    width: 1000px;
+    padding-right: 57px;
+    border: 2px solid #777;
+    border-radius: 7px;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+    outline: none;
+}
+
+.site__search-btn {
+    margin-left: 50px;
+    padding: 13px 40px 13px 39px;
+    background: #111111;
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.box__resault {
+    top: 60px;
+    margin-top: 50px;
+    padding: 37px 128px 308px 32px;
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.11);
+    border-radius: 14px;
+    
+}
+
+.about__the-result {
+    margin-top: 50px;
+}
+
+.audio__sound {
+    margin-top: 30px;
+    margin-left: -10px;
+}
