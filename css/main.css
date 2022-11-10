@@ -168,6 +168,7 @@
     }
 
     .site__search-btn{
+        width: 170px;
         padding: 10px;
     }
 
@@ -190,3 +191,9 @@
         height: 50px;
     }
 }
+
+/* @media screen and (max-width: 412px) {
+    .site__search-btn {
+        margin-right: 20px;
+    }
+} */
