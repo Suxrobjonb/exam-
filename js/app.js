@@ -14,6 +14,7 @@ elForm.addEventListener('submit', (evt) => {
      fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${elInput.value}`)
      .then(response => response.json())
      .then(data => {
+      console.log(data);
         data.forEach(resaultEl => {
             // lug'atni aytilishi
             commitRes.innerHTML = resaultEl.meanings[0].definitions[0].definition;
@@ -21,7 +22,7 @@ elForm.addEventListener('submit', (evt) => {
             ReadingEl.innerHTML =  resaultEl.word + " - " + resaultEl.phonetics[1].text.split('').slice(1, -1).join('');
             // audiosi
             elAudio.setAttribute("controls", "")
-            elAudio.src = element.phonetics[0].audio;
+            elAudio.src = resaultEl.phonetics[0].audio;
             console.log(resaultEl);
             
           });       

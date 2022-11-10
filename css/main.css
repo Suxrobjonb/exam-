@@ -45,5 +45,148 @@
 
 .audio__sound {
     margin-top: 30px;
-    margin-left: -10px;
+    margin-left: -17px;
+}
+
+.site__popular {
+    margin-top: 25px;
+}
+
+.populate {
+    text-align: center;
+    color: crimson;
+}
+
+@media screen and (max-width: 1260px) {
+    .input__dictionary {
+        width: 900px;
+    }
+    
+    .site__search-btn{
+        margin-left: 5px;
+    }
+
+    .box__resault{
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width: 1115px) {
+    .input__dictionary {
+        width: 850px;
+    }
+}
+
+@media screen and (max-width: 1115px) {
+    .input__dictionary {
+        width: 800px;
+    }
+}
+
+
+@media screen and (max-width: 1015px) {
+    .input__dictionary {
+        width: 750px;
+    }
+} 
+
+
+@media screen and (max-width: 965px) {
+    .input__dictionary {
+        width: 700px;
+    }
+}
+
+
+@media screen and (max-width: 915px) {
+    .input__dictionary {
+        width: 650px;
+    }
+}  
+
+
+@media screen and (max-width: 865px) {
+    .input__dictionary {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 815px) {
+    .input__dictionary {
+        width: 550px;
+    }
+}
+
+
+@media screen and (max-width: 765px) {
+    .input__dictionary {
+        width: 500px;
+    }
+}
+
+
+@media screen and (max-width: 715px) {
+    .input__dictionary {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .input__dictionary {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .input__dictionary {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .input__dictionary {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 464px) {
+    .input__dictionary{
+        width: 385px;
+    }
+    
+    .site__search-btn {
+        margin-left: 73px;
+        width: 250px;
+    }
+}
+
+
+@media screen and (max-width: 412px) {
+    .input__dictionary {
+        width: 300px;
+    }
+
+    .site__search-btn{
+        padding: 10px;
+    }
+
+    .populate{
+        font-size: 17px;
+    }
+
+    .site__resault-title {
+        font-size: 21px;
+    }
+
+    .about__the-result {
+        font-size: 12px;
+    }
+    
+    .audio__sound {
+        margin-right: 90px;
+        font-size: 15px;
+        width: 270px;
+        height: 50px;
+    }
 }
